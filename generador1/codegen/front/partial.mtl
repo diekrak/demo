@@ -74,7 +74,7 @@
 [if(a.type.name.equalsIgnoreCase('Date'))]
 						<input id="[a.name/]" 
                                class="form-control datepicker" 
-                               type="text" 
+                               type="text"
                                ng-model="datosFormulario.[a.name/]"/>
                         <script>
                                     var dp_[a.name/] = $('#[a.name/]').datepicker({format: 'dd/mm/yyyy'}).on('changeDate', function (ev) {
